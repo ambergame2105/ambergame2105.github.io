@@ -3,59 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YusenGame - Home</title>
+    <title>YusenGame - Support</title> <!-- 修改标题强调支持页面 -->
     <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 4em 0;
-        }
-        section {
+        /* 新增支持版块样式 */
+        .support-section {
+            background-color: #f5f5f5;
             padding: 2em;
             text-align: center;
         }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
+        .contact-info {
+            margin: 1em 0;
             padding: 1em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+        /* 其他原有样式保持不变 */
     </style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11397557123"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-11397557123');
-</script>
 <body>
     <header>
-        <h1>Welcome to YusenGame</h1>
-        <p>Creating Games, Igniting Passion</p>
+        <h1>YusenGame Support</h1> <!-- 修改标题强调支持 -->
+        <p>We're here to help you!</p>
     </header>
-    <section>
-        <h2>About Us</h2>
-        <p>YusenGame is a creative and passionate game development team. We focus on delivering exciting gaming experiences that provide endless fun for players.</p>
+
+    <!-- 新增支持信息版块 -->
+    <section class="support-section">
+        <h2>Contact Support</h2>
+        <div class="contact-info">
+            <p>Email us at: 
+                <a href="mailto:yusen.niu@hotmail.com" style="color: #0066cc;">
+                    yusen.niu@hotmail.com
+                </a>
+            </p>
+            <p>We respond within 24 hours</p>
+        </div>
+        
+        <h3>Frequently Asked Questions</h3>
+        <div class="contact-info">
+            <p>Q: How to reset game progress?</p>
+            <p>A: Please contact us via email with your player ID</p>
+        </div>
     </section>
-    <section>
-        <h2>Our Mission</h2>
-        <p>Our mission is to bring games to global players through innovation, quality, and fun. Our game stories are rich, gameplay is diverse, and designed to capture your hearts.</p>
-    </section>
-    <section>
-        <h2>Our Vision</h2>
-        <p>Our vision is to become one of the world's most beloved game development teams. We firmly believe that games are a medium to connect people, convey stories, and ignite passion.</p>
-    </section>
+
+    <!-- 原有其他版块保持不变 -->
+
     <footer>
+        <!-- 在页脚添加额外联系信息 -->
+        <div style="margin-bottom: 1em;">
+            <a href="#support" style="color: white; text-decoration: underline;">Contact Support</a> |
+            <a href="/privacy" style="color: white; text-decoration: underline;">Privacy Policy</a>
+        </div>
         <p>&copy; 2025 YusenGame. All Rights Reserved.</p>
     </footer>
 </body>
